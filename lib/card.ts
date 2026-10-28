@@ -30,4 +30,4 @@ export const defaultWedding: WeddingConfig = {
 };
 
 // Logo riêng của thiệp (ảnh trong public/images). null = dùng chữ lồng tự động từ tên cô dâu chú rể.
-export const cardLogo: {mark:string;full:string}|null = null;
+export const cardLogo: {mark:string;full:string}|null = {mark:"/images/logo-mark.webp",full:"/images/logo-full.webp"};
